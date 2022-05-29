@@ -1,34 +1,116 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <img style="width: 250px; height: 150px;" src="./logo.svg" alt="taskr logo">
+</p>
 
-## Getting Started
+<h1 align="center" style="margin: 16px 0;">Tskr</h1>
 
-First, run the development server:
+<p align="center" style="margin-top: 16px;">
+Web application developed in React.js and Next.js in order to demonstrate client-server communication.
+</p>
 
-```bash
-npm run dev
-# or
+<p align="center" style="margin-top: 2.5rem;">
+  <img style="width: 550px; height: 350px;" src="./web.png" alt="taskr homepage">
+</p>
+
+<br />
+
+<h3 style="font-size: 2rem">About the project ⚡</h3>
+
+<p style="margin-bottom: 2.5rem;">This project aims to demonstrate the basic operations in a postgreSQL database by communicating with a rest node.js api. I used some of the best technologies to develop this project. see what these technologies are below.</p>
+
+<h3 style="font-size: 2rem;">Application Features ✨</h3>
+
+<h3 style="font-size: 1.5rem; margin-bottom: 1rem;">🤗 User</h3>
+
+<ul style="margin-bottom: 1rem;">
+  <li>Create user</li>
+  <li>Find user's data</li>
+  <li>Update user</li>
+  <li>Authenticate user</li>
+</ul>
+
+<h3 style="font-size: 1.5rem;">📃 Task</h3>
+
+<ul>
+  <li>Create task</li>
+  <li>Find user's tasks</li>
+  <li>Update task</li>
+  <li>Delete task</li>
+</ul>
+
+<h3 style="font-size: 2rem;">Aplication Techs 💻</h3>
+
+<ul style="margin-bottom: 2.5rem;">
+  <li>
+    <a href="https://reactjs.org/docs/getting-started.html" target="_blank">
+      React.js
+    </a>
+  </li>
+  <li>
+    <a href="https://nextjs.org" target="_blank">
+      Next.js
+    </a>
+  </li>
+  <li>
+    <a href="https://axios-http.com/docs/intro" target="_blank">
+      Axios
+    </a>
+  </li>
+  <li>
+    <a href="https://github.com/maticzav/nookies" target="_blank">
+      Nookies
+    </a>
+  </li>
+  <li>
+    <a href="https://phosphoricons.com" target="_blank">
+      Phosphor-react
+    </a>
+  </li>
+  <li>
+    <a href="https://reactcommunity.org/react-modal" target="_blank">
+      React-modal
+    </a>
+  </li>
+  <li>
+    <a href="https://styled-components.com" target="_blank">
+      Styled-Components
+    </a>
+  </li>
+</ul>
+
+# How to start the project?
+
+<p>Clone the repository with: git clone git@github.com:henrique1758/tasker-web</p>
+
+<p>Install the dependencies with the command:</p>
+
+```sh
+yarn
+```
+<p>To execute the server run the command:</p>
+
+```sh
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Api Project
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+<p style="margin-bottom: 1rem;">
+  See the api project at:
+  <a href="https://github.com/henrique1758/tasker-server" target="_blank">Api project</a>
+</p>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+# Author 
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<h3>Henrique Monteiro</h3>
 
-## Learn More
+<ul style="margin-bottom: 1rem;">
+  <li>
+    Linkedin: <a href="https://www.linkedin.com/in/henrique-monteiro-3a936a223/" target="_blank">@henriquemonteiro3a936a223</a>
+  </li>
+  <li>
+    Github: <a href="https://github.com/henrique1758/" target="_blank">@henrique1758</a>
+  </li>
+</ul>
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Give a ⭐️ if this project helped you!
